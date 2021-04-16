@@ -13,7 +13,6 @@ target 'SwensonHeTask' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxRelay'
-  pod 'Kingfisher'
   pod 'SwiftLint', '0.39.1'
   pod 'FlagKit'
 
