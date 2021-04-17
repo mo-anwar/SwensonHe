@@ -42,7 +42,6 @@
 		181769C52628F82D009E62DF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181769C42628F82D009E62DF /* HomeViewModel.swift */; };
 		181769C92628F8AE009E62DF /* CurrencyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181769C82628F8AE009E62DF /* CurrencyRepository.swift */; };
 		181769D2262900B1009E62DF /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181769D1262900B1009E62DF /* Rate.swift */; };
-		181769DA26290EAB009E62DF /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181769D926290EAB009E62DF /* ShadowView.swift */; };
 		181769FA2629A53A009E62DF /* CurrencyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181769F82629A53A009E62DF /* CurrencyListViewController.swift */; };
 		181769FB2629A53A009E62DF /* CurrencyListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181769F92629A53A009E62DF /* CurrencyListViewController.xib */; };
 		18176A022629A5BA009E62DF /* CurrencyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18176A012629A5BA009E62DF /* CurrencyListViewModel.swift */; };
@@ -50,6 +49,7 @@
 		18176A112629D867009E62DF /* ConvertorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18176A0F2629D867009E62DF /* ConvertorViewController.xib */; };
 		18176A172629D93D009E62DF /* ConvertorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18176A162629D93D009E62DF /* ConvertorViewModel.swift */; };
 		18176A2F262A1F2C009E62DF /* UIGestureRecognizerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18176A2E262A1F2C009E62DF /* UIGestureRecognizerExtension.swift */; };
+		18176A4B262AED1C009E62DF /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18176A4A262AED1C009E62DF /* ShadowView.swift */; };
 		DC88454037365D96C0C342CA /* Pods_SwensonHeTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539BCB4C8B1EF9A03D654F2F /* Pods_SwensonHeTaskTests.framework */; };
 		E02E8BAAC294770FD381F148 /* Pods_SwensonHeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C780D554E4B32EB77F60EC9 /* Pods_SwensonHeTask.framework */; };
 /* End PBXBuildFile section */
@@ -108,7 +108,6 @@
 		181769C42628F82D009E62DF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		181769C82628F8AE009E62DF /* CurrencyRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRepository.swift; sourceTree = "<group>"; };
 		181769D1262900B1009E62DF /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
-		181769D926290EAB009E62DF /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShadowView.swift; path = "../../../../../Downloads/mohamed-anwar-alwaadstore-4f6e34cc403b/AlwaadStore/Extensions/ShadowView.swift"; sourceTree = "<group>"; };
 		181769F82629A53A009E62DF /* CurrencyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewController.swift; sourceTree = "<group>"; };
 		181769F92629A53A009E62DF /* CurrencyListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyListViewController.xib; sourceTree = "<group>"; };
 		18176A012629A5BA009E62DF /* CurrencyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewModel.swift; sourceTree = "<group>"; };
@@ -116,6 +115,7 @@
 		18176A0F2629D867009E62DF /* ConvertorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConvertorViewController.xib; sourceTree = "<group>"; };
 		18176A162629D93D009E62DF /* ConvertorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertorViewModel.swift; sourceTree = "<group>"; };
 		18176A2E262A1F2C009E62DF /* UIGestureRecognizerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerExtension.swift; sourceTree = "<group>"; };
+		18176A4A262AED1C009E62DF /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		2EA203A60334C975121BC191 /* Pods-SwensonHeTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwensonHeTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-SwensonHeTaskTests/Pods-SwensonHeTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		539BCB4C8B1EF9A03D654F2F /* Pods_SwensonHeTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwensonHeTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF5AB852070FD5CBF43B4E7 /* Pods-SwensonHeTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwensonHeTaskTests.release.xcconfig"; path = "Target Support Files/Pods-SwensonHeTaskTests/Pods-SwensonHeTaskTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -284,7 +284,7 @@
 		181769152628CBFA009E62DF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				181769D926290EAB009E62DF /* ShadowView.swift */,
+				18176A4A262AED1C009E62DF /* ShadowView.swift */,
 				181769B12628F319009E62DF /* EncodableExtension.swift */,
 				181769A12628F0DA009E62DF /* URLRequestConvertible.swift */,
 				181769182628CBFA009E62DF /* UIColorExtension.swift */,
@@ -630,7 +630,6 @@
 				18176A2F262A1F2C009E62DF /* UIGestureRecognizerExtension.swift in Sources */,
 				181769B22628F319009E62DF /* EncodableExtension.swift in Sources */,
 				181769352628CBFA009E62DF /* UIViewExtension.swift in Sources */,
-				181769DA26290EAB009E62DF /* ShadowView.swift in Sources */,
 				181768F12628BA00009E62DF /* RuntimeError.swift in Sources */,
 				181769BA2628F72F009E62DF /* RateResponse.swift in Sources */,
 				181769862628DCB5009E62DF /* ViewModel.swift in Sources */,
@@ -660,6 +659,7 @@
 				1817699E2628F085009E62DF /* CurrencyNetworkRouter.swift in Sources */,
 				181769332628CBFA009E62DF /* UITableViewExtension.swift in Sources */,
 				1817695B2628CDD1009E62DF /* HomeViewController.swift in Sources */,
+				18176A4B262AED1C009E62DF /* ShadowView.swift in Sources */,
 				181769AC2628F1B9009E62DF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

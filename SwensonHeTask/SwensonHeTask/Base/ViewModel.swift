@@ -18,8 +18,4 @@ protocol ViewModelType: class {
 
 class ViewModel {
     let disposeBag = DisposeBag()
-    
-    var didReceieveErrorMessage: ((String) -> Void)?
-    var showActivityIndicator: ((Bool) -> Void)?
-    var hideActivityIndicator: (() -> Void)?
 }
